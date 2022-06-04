@@ -1,0 +1,275 @@
+* {
+  font-family: "Overpass", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #121417;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card {
+  background-color: #202631;
+  width: 20.4rem;
+  height: 22.6rem;
+  border-radius: 12px;
+}
+
+.container .card .hide {
+  display: none;
+}
+
+.container .card .card-wrapper-1 {
+  padding: 1.6rem 1.4rem;
+}
+
+.container .card .card-wrapper-1 .star {
+  background-color: #282f3e;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  margin: 0.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .card-wrapper-1 .star img {
+  width: 0.9rem;
+}
+
+.container .card .card-wrapper-1 h1 {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+.container .card .card-wrapper-1 .text {
+  color: #7c8798;
+  font-size: 0.81rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+.container .card .card-wrapper-1 .ratingBtn {
+  color: #7c8798;
+  font-size: 0.8rem;
+  margin-top: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card .card-wrapper-1 .ratingBtn .btn {
+  background-color: #282f3e;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 1rem;
+  padding-top: 0.8rem;
+}
+
+.container .card .card-wrapper-1 .ratingBtn .btn:hover {
+  background-color: #fb7413;
+  cursor: pointer;
+  color: white;
+}
+
+.container .card .card-wrapper-1 .ratingBtn .active {
+  color: white;
+  background-color: #959eac;
+}
+
+.container .card .card-wrapper-1 .SubmitBtn {
+  color: white;
+  margin-top: 1.57rem;
+  background-color: #fb7413;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .card-wrapper-1 .SubmitBtn .submit {
+  font-size: 0.8rem;
+  height: 2.77rem;
+  font-weight: 700;
+  padding-top: 0.9rem;
+  letter-spacing: 0.15rem;
+}
+
+.container .card .card-wrapper-1 .SubmitBtn:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #fb7413;
+}
+
+.container .card .card-wrapper-2 {
+  padding: 1.6rem 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .card-wrapper-2 .thankyou {
+  margin-top: 0.6rem;
+}
+
+.container .card .card-wrapper-2 .thankyou img {
+  width: 9rem;
+}
+
+.container .card .card-wrapper-2 .review {
+  color: #fb7413;
+  margin-top: 1.3rem;
+  width: 10.5rem;
+  text-align: center;
+  background-color: #282f3e;
+  border-radius: 4rem;
+}
+
+.container .card .card-wrapper-2 .review p {
+  font-size: 0.8rem;
+  letter-spacing: 0.04rem;
+  padding: 0.5rem;
+}
+
+.container .card .card-wrapper-2 h2 {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 1.8rem;
+  letter-spacing: 0.09rem;
+  font-weight: 400;
+}
+
+.container .card .card-wrapper-2 .text {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.container .card .card-wrapper-2 .text p {
+  color: #959eac;
+  font-size: 0.81rem;
+  letter-spacing: 0.034rem;
+  line-height: 1.38rem;
+}
+
+.container .card .hide {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .container .card {
+    width: 25.5rem;
+    height: 25.7rem;
+    border-radius: 28px;
+  }
+  .container .card .hide {
+    display: none;
+  }
+  .container .card .card-wrapper-1 {
+    padding: 1.8rem 1.85rem;
+  }
+  .container .card .card-wrapper-1 .star {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.2rem;
+  }
+  .container .card .card-wrapper-1 .star img {
+    width: 1rem;
+  }
+  .container .card .card-wrapper-1 h1 {
+    font-size: 1.6rem;
+    padding-left: 0.15rem;
+    letter-spacing: 0.01rem;
+    margin-top: 2rem;
+  }
+  .container .card .card-wrapper-1 .text {
+    font-size: 0.85rem;
+    margin-top: 0.9rem;
+    margin-left: 0.15rem;
+    line-height: 1.45rem;
+  }
+  .container .card .card-wrapper-1 .ratingBtn {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: -0.5rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .card .card-wrapper-1 .ratingBtn .btn {
+    width: 3.1rem;
+    height: 3.1rem;
+    padding: 1.08rem;
+    padding-left: 1.3rem;
+  }
+  .container .card .card-wrapper-1 .SubmitBtn {
+    margin-top: 2rem;
+    width: 21rem;
+    margin-left: 0.2rem;
+  }
+  .container .card .card-wrapper-1 .SubmitBtn .submit {
+    font-size: 0.88rem;
+  }
+  .container .card .card-wrapper-2 {
+    padding: 1.9rem 2.1rem;
+  }
+  .container .card .card-wrapper-2 .thankyou {
+    margin-top: 0.87rem;
+  }
+  .container .card .card-wrapper-2 .thankyou img {
+    width: 10rem;
+  }
+  .container .card .card-wrapper-2 .review {
+    margin-top: 1.84rem;
+    width: 11.75rem;
+  }
+  .container .card .card-wrapper-2 .review p {
+    font-size: 0.85rem;
+  }
+  .container .card .card-wrapper-2 h2 {
+    font-size: 1.6rem;
+    margin-top: 2.1rem;
+  }
+  .container .card .card-wrapper-2 .text p {
+    font-size: 0.87rem;
+    line-height: 1.49rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

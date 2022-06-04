@@ -1,0 +1,79 @@
+@media screen and (min-width: 1440px) {
+  .container .card {
+    width: 25.5rem;
+    height: 25.7rem;
+    border-radius: 28px;
+  }
+  .container .card .hide {
+    display: none;
+  }
+  .container .card .card-wrapper-1 {
+    padding: 1.8rem 1.85rem;
+  }
+  .container .card .card-wrapper-1 .star {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.2rem;
+  }
+  .container .card .card-wrapper-1 .star img {
+    width: 1rem;
+  }
+  .container .card .card-wrapper-1 h1 {
+    font-size: 1.6rem;
+    padding-left: 0.15rem;
+    letter-spacing: 0.01rem;
+    margin-top: 2rem;
+  }
+  .container .card .card-wrapper-1 .text {
+    font-size: 0.85rem;
+    margin-top: 0.9rem;
+    margin-left: 0.15rem;
+    line-height: 1.45rem;
+  }
+  .container .card .card-wrapper-1 .ratingBtn {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: -0.5rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .card .card-wrapper-1 .ratingBtn .btn {
+    width: 3.1rem;
+    height: 3.1rem;
+    padding: 1.08rem;
+    padding-left: 1.3rem;
+  }
+  .container .card .card-wrapper-1 .SubmitBtn {
+    margin-top: 2rem;
+    width: 21rem;
+    margin-left: 0.2rem;
+  }
+  .container .card .card-wrapper-1 .SubmitBtn .submit {
+    font-size: 0.88rem;
+  }
+  .container .card .card-wrapper-2 {
+    padding: 1.9rem 2.1rem;
+  }
+  .container .card .card-wrapper-2 .thankyou {
+    margin-top: 0.87rem;
+  }
+  .container .card .card-wrapper-2 .thankyou img {
+    width: 10rem;
+  }
+  .container .card .card-wrapper-2 .review {
+    margin-top: 1.84rem;
+    width: 11.75rem;
+  }
+  .container .card .card-wrapper-2 .review p {
+    font-size: 0.85rem;
+  }
+  .container .card .card-wrapper-2 h2 {
+    font-size: 1.6rem;
+    margin-top: 2.1rem;
+  }
+  .container .card .card-wrapper-2 .text p {
+    font-size: 0.87rem;
+    line-height: 1.49rem;
+  }
+}
+/*# sourceMappingURL=desktop1440px.css.map */
